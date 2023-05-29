@@ -644,7 +644,7 @@ label,
 .btn{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -696,6 +696,12 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.text--small, .text--small:hover {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
 }
 
 h2 {
@@ -775,8 +781,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #fa773a!important;
+    color: #081338;
 }
 
 .ltc-white {
