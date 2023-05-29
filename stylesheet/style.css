@@ -27,7 +27,7 @@ a:hover {
 }
 
 .text--brand {
-    color: #303c6c;
+    color: #364577;
 }
 
 .align-center {
@@ -686,7 +686,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #364577;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1.0em;
@@ -772,7 +772,6 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
