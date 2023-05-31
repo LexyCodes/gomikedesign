@@ -714,7 +714,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #364577;
+    color: #081338;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 1.0em;
@@ -867,6 +867,7 @@ h4 {
 }
 .footer_logo img {
     width: 150px;
+    height: auto;
     filter: brightness(6);
 }
 
@@ -1036,7 +1037,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 100%;
     }
     .nav-invert .navbar-header {
         float: none;
