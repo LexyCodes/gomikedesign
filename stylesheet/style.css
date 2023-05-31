@@ -109,17 +109,8 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("../img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
-}
-
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -361,7 +352,38 @@ a:hover {
     z-index: 2;
 }
 
+.navbar-header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    list-style: none;
+    padding-right: 5px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.home-page-link {
+    text-decoration: none;
+}
+
+.form1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.align-center {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 768px) {
+
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -648,15 +670,21 @@ label,
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 90%;
 }
 
 .hero-bloc-text {
     font-size: 38px;
+    text-align: center;
+    color: white;
 }
 
 .hero-bloc-text-sub {
     font-size: 36px;
+}
+
+.text--center {
+    text-align: center;
 }
 
 .statement-bloc-text {
@@ -670,7 +698,7 @@ label,
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -696,6 +724,17 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-decoration: none;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.text--space {
+    padding: 10px;
 }
 
 .text--small, .text--small:hover {
@@ -806,10 +845,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("../img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("../img/lines-h2-bg.png");
 }
@@ -863,10 +898,6 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -878,10 +909,10 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 100%;
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
@@ -927,6 +958,11 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .home-page-link{
+        display: none;
+    }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1048,7 +1084,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 15px;
     }
     .close-lightbox {
         display: inline-block;

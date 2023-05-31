@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/ico" href="../img/Mike-favicon.ico">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../stylesheet/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/et-line.min.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="../js/jquery-2.1.0.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/blocs.min.js"></script>
+	<script src="../js/jqBootstrapValidation.js"></script>
+	<script src="../js/formHandler.js"></script>
     <title>Contact Mike For Your Free Quote | GoMike Designs</title>
 
     
@@ -31,15 +31,11 @@
 	<header class="bloc bgc-white l-bloc " id="bloc-0">
 		<div class="container bloc-sm">
 			<nav class="navbar row">
-				<div class="navbar-header">
+				<div class="navbar-header navbar-header1">
 					<a class="navbar-brand" href="../index.html"><img src="../img/atlanta%20web%20design%20logo.webp" alt="GoMike Designs Logo"  height="40" /></a>
-				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-					<ul class="site-navigation nav navbar-nav">
-						<li>
-							<a class="text--brand" href="../index.html">Home Page</a>
-						</li>
-					</ul>
+					<li class="navbar-list">
+						<a class="text--brand home-page-link" href="../index.html">Home Page</a>
+					</li>
 				</div>
 			</nav>
 		</div>
@@ -56,7 +52,7 @@
 						<h1 class="text-center hero-bloc-text text--white">
 							Contact Me For Your Web Design Project Quote
 						</h1>
-						<p class="align-center text-center mg-lg text--white tight-width-whitespace">
+						<p class="align-center text-center mg-lg text--white tight-width-whitespace text--center">
 							I'm super excited that you want to work together.
 							<br>
 							Please fill in the form below or get in touch so I can learn about your project
@@ -74,39 +70,43 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<h2 class="text--brand">Fill Out The Contact Form Below</h2>
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form class="form1" id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="first name">
 									Name
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
+							<br>
 							<div class="form-group">
-								<label>
+								<label for="contact">
 									Email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
+							<br>
 							<div class="form-group">
-								<label>
+								<label for="source">
 									How did you find me?
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
+							<br>
 							<div class="form-group">
-								<label>
-									Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
+								<label for="project information">
+									Project brief (Please be as detailed as possible. Including your company goals and any improvements you'd like to have over your current website)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<br>
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine align-center" type="submit">
 								Let's go Mike
 							</button>
 						</form>
 					</div>
 
-					<div class="col-sm-6">
+					<div class="col-sm-6 text--black text--center">
 						<p>
-							mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="ltc-atomic-tangerine" href="../index.html">other page</a>.
+							mike@gomikedesigns.com<br>+1 (404) 555-1234<br> <br>123 Peachtree Ave. Atlanta, GA<br>Available 9am–5pm, Mon-Fri <br> <br>Interested to learn about my freelace services? <br>Please visit my&nbsp;<a class="text--brand" href="../index.html">other page</a>.
 						</p>
 					</div>
 				</div>
@@ -139,31 +139,31 @@
 					<p class="footer_discover text-center white">
 						Connect With Me Online
 					</p>
-					<div class="row row-no-gutters social">
+					<div class="row row-no-gutters social-list">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social text--small" href="https://twitter.com"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social text--small text--space" href="https://twitter.com"><span class="fa fa-twitter icon-md"></span>Twitter</a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social text--small" href="https://www.facebook.com"><span class="fa fa-facebook icon-md"></span></a>
+								<a class="social text--small text--space" href="https://www.facebook.com"><span class="fa fa-facebook icon-md"></span>Facebook</a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social text--small" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
+								<a class="social text--small text--space" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span>Dribble</a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social text--small" href="https://www.instagram.com"><span class="fa fa-instagram icon-md"></span></a>
+								<a class="social text--small text--space" href="https://www.instagram.com"><span class="fa fa-instagram icon-md"></span>Instagram</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-	</footer>
+		</footer>
 	<!-- Footer - bloc-8 END -->
 		
 
