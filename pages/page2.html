@@ -74,30 +74,31 @@
 						<h2 class="text--brand">Fill Out The Contact Form Below</h2>
 						<form class="form1" id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label for="first name">
+								<label for="name">
 									Name
 								</label>
-								<input id="name" class="form-control" required />
+								<input type="text" id="name" class="form-control" required />
 							</div>
 							<br>
 							<div class="form-group">
-								<label for="contact">
+								<label for="email">
 									Email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input type="email" id="email" class="form-control" required />
 							</div>
 							<br>
 							<div class="form-group">
 								<label for="source">
 									How did you find me?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input type="text" id="source" class="form-control" required />
 							</div>
 							<br>
 							<div class="form-group">
-								<label for="project information">
-									Project brief (Please be as detailed as possible. Including your company goals and any improvements you'd like to have over your current website)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								<label for="project_brief">
+									Project brief (Please be as detailed as possible)<br>
+								</label>
+								<textarea id="project_brief" class="form-control" rows="4" cols="50" required></textarea>
 							</div> 
 							<br>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine align-center" type="submit">
