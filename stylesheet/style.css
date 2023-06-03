@@ -870,7 +870,7 @@ h4 {
 }
 .footer_logo img {
     width: 150px;
-    height: auto;
+    height: 30px;
     filter: brightness(6);
 }
 
